@@ -4,11 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Meeting Session 20 July 2022</title>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/sky.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +19,89 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section id="first">
+					<h3>Meeting Session</h3>
+					<h6>20 July 2022</h6>
+				</section>
+				<section id="second">
+					<section>
+						<h3>Agenda</h3>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment fade-up">Categorising The Documents</li>
+							<li class="fragment fade-up">Understanding The Process</li>
+						</ul>
+					</section>
+				</section>
+				<section id="third">
+					<section>
+						<h3>Categorising The Documents</h3>
+					</section>
+					<section>
+						<h3>Exempted Categories</h3>
+					</section>
+					<section>
+						<p>What are the <em><u>Exempted Categories</u></em> documents that the user must know of?</p>
+					</section>
+					<section>
+						<p>What are the <em><u>Exempted Categories</u></em> documents that the user need to know of?</p>
+					</section>
+				</section>
+				<section id="fourth">
+					<section>
+						<h3>SVP Form</h3>
+					</section>
+					<section>
+						<p>What are the <em><u>SVP Form</u></em> documents that the user must know of?</p>
+					</section>
+					<section>
+						<p>What are the <em><u>SVP Form</u></em> documents that the user need to know of?</p>
+					</section>
+				</section>
+				<section id="fifth">
+					<section>
+						<h3>Quotation Form</h3>
+					</section>
+					<section>
+						<p>What are the <em><u>Quotation Form</u></em> documents that the user must know of?</p>
+					</section>
+					<section>
+						<p>What are the <em><u>Quotation Form</u></em> documents that the user need to know of?</p>
+					</section>
+				</section>
+				<section id="sixth">
+					<section>
+						<h3>Tender Form</h3>
+					</section>
+					<section>
+						<p>What are the <em><u>Tender Form</u></em> documents that the user must know of?</p>
+					</section>
+					<section>
+						<p>What are the <em><u>Tender Form</u></em> documents that the user need to know of?</p>
+					</section>
+				</section>
+				<section id="seventh">
+					<section>
+						<h3>FAQ Documents</h3>
+					</section>
+					<section>
+						<p>What are the <em><u>FAQ</u></em> documents that the user must know of?</p>
+					</section>
+					<section>
+						<p>What are the <em><u>FAQ</u></em> documents that the user need to know of?</p>
+					</section>
+				</section>
+				<section id="eighth">
+					<section>
+						<h3>Understanding The Process</h3>
+					</section>
+				</section>
+				<section id="ninth">
+					<section>
+						<h3>Thank you!</h3>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -30,7 +114,11 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
+				hash: false,
+				controls: true,
+				controlsBackArrows: 'faded',
+				controlsLayout: "bottom-right",
+				slideNumber: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
